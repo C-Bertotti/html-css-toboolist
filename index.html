@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <header>
+      <img id="logo" src="img/Logo.png" alt="boolean logo">
+      <h1>Toboolist</h1>
+    </header>
+
+    <main>
+      <button class="buttons" type="button" name="add-task">Add Task</button>
+      <button class="buttons sectionbutton" type="button" name="add-section">Add Section</button>
+
+      <hr>
+
+      <!-- todolist -->
+      <ul class="container">
+
+        <!-- task section -->
+        <li>
+          <span class="symbols">&blacktriangledown;</span>
+          New Task
+
+          <ul class="section">
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Quarterly Newsletter <span class="tags">Editorial</span>
+            </li>
+          </ul>
+        </li>
+        <!-- /task section -->
+
+        <!-- today section -->
+        <li>
+          <span class="symbols">&blacktriangledown;</span>
+          Today
+
+          <ul class="section">
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Recruiting blog post <span class="tags editorial">Editorial</span>
+            </li>
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Mobile app launch <span class="tags q1-goals">Q1 Goals</span>
+            </li>
+
+            <li>
+              <div class="symbols un- done">
+                &#10007;
+              </div>
+              Interview John H. <span class="tags recruiting">Recruiting</span>
+            </li>
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Summit update to mobile storefronts <span class="tags mobile">Mobile</span>
+            </li>
+          </ul>
+        </li>
+        <!-- today section -->
+
+        <!-- upcoming section -->
+        <li>
+          <span class="symbols">&blacktriangledown;</span>
+          Upcoming
+
+          <ul class="section">
+
+            <li>
+              <div class="symbols un- done">
+                &#10007;
+              </div>
+              Schedule meeting with Alex
+            </li>
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Homepage refresh <span class="tags websites">Websites</span>
+            </li>
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Onboard new Sales team members  <span class="tags sales">Sales</span>
+            </li>
+
+            <li>
+              <div class="symbols done">
+                &#10003;
+              </div>
+              Review editorial calendar <span class="tags editorial">Editorial</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- /upcoming section -->
+      <!-- /todolist -->
+
+    </main>
+
+  </body>
+</html>
